@@ -3,7 +3,7 @@ let cart = [];
 const notyf = new Notyf({
   position: {
     x: 'center',
-    y: 'top'
+    y: 'bottom'
   }
 });
 
