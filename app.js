@@ -146,7 +146,7 @@ const renderCart = () => {
                 <button data-btn="incr" class="btn btn-sm btn-outline-primary px-2 py-0 increase-qty">+</button>
               </div>
               <span class="cart-item-price">
-                ${amount}
+                ${amount.toFixed(2)}
               </span>
            </div>
          </div>
